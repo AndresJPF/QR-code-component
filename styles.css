@@ -1,0 +1,54 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit, sans-serif;
+}
+
+body{
+    background-color: var(--Lightgray);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+.card{
+    
+    width: 300px;
+    background-color: var(--White);
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.card h1{
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.qr-code{
+    border-radius: 10px;
+}
+
+.qr-code img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
